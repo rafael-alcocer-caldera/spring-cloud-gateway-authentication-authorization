@@ -1,0 +1,27 @@
+server:
+  port : 8008
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: authentication
+        uri: http://localhost:8180/
+        predicates:
+        - Path=/api/auth/**
+      - id: authorization
+        uri: http://localhost:9090/
+        predicates:
+        - Path=/authorization/**
+      - id: kafka
+        uri: http://localhost:8089/
+        predicates:
+        - Path=/kafka/**
+        filters:
+        - GatewayAuthenticationAuthorizationFilter
+      - id: elasticsearch
+        uri: http://localhost:8085/
+        predicates:
+        - Path=/elasticsearch/**
+        filters:
+        - GatewayAuthenticationAuthorizationFilter
