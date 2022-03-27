@@ -12,9 +12,9 @@ I wanted to extend the Authorization JWT Service [Spring Boot Authorization JWT]
 
 - You need PostgresQL installed
 - You need my [Spring Boot Authentication PostgresQL](https://github.com/rafael-alcocer-caldera/spring-boot-authentication-postgresql) and start it. It creates the database, after this you need to execute the queries that are in the queries.sql within the resource folder
-- You need my [Spring Boot Authentication PostgresQL Authorization JWT]<https://github.com/rafael-alcocer-caldera/spring-boot-authn-postgresql-authz-jwt>
-- You need my [Spring Boot Elasticsearch Example]<https://github.com/rafael-alcocer-caldera/spring-boot-elasticsearch-example>
-- You need my [Spring Boot Elasticsearch Example]<https://github.com/rafael-alcocer-caldera/spring-boot-kafka-producer-example>
+- You need my [Spring Boot Authentication PostgresQL Authorization JWT](https://github.com/rafael-alcocer-caldera/spring-boot-authn-postgresql-authz-jwt)
+- You need my [Spring Boot Elasticsearch Example](https://github.com/rafael-alcocer-caldera/spring-boot-elasticsearch-example)
+- You need my [Spring Boot Elasticsearch Example](https://github.com/rafael-alcocer-caldera/spring-boot-kafka-producer-example)
 
 
 USING POSTMAN:
